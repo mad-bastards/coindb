@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "pg-monitor": "^2.0.0",
+    "pg-promise": "^11.5.4"
+  },
+  "workspaces": [
+    "lib/node-postgres"
+  ],
+  "name": "coindb",
+  "version": "1.0.0",
+  "description": "A database of cryptocurrency info",
+  "main": "index.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "nobody (spam-me@copblock.app)",
+  "license": "ISC"
+}
