@@ -3,16 +3,11 @@
     "pg-monitor": "^2.0.0",
     "pg-promise": "^11.5.4"
   },
-  "workspaces": [
-    "lib/node-postgres"
-  ],
+  "type": "module",
   "name": "coindb",
   "version": "1.0.0",
   "description": "A database of cryptocurrency info",
-  "main": "index.mjs",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "index.js",
   "devDependencies": {
     "mocha": "^10.2.0"
   },

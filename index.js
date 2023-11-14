@@ -1,14 +1,6 @@
 #!node
-import pgprom from 'pg-promise';
-import monitor from 'pg-monitor';
-const pginit={};
-const pgp=pgprom(pginit);
-monitor.attach(pginit);
-const cred = {
-    host:     "/run/postgresql/",
-    database: "coindb"
-};
-const db = pgp(cred);
+import db from './db.mjs';
+
 const cols = {};
 import { readJson, writeJson } from './readJson.mjs';
 const data = readJson('registry.json');
@@ -119,5 +111,4 @@ for(let i=0;i<studied.length;i++) {
   await createTable(tab.name,tab.data, tab.types);
 }
 console.log("done");
-pgp.end();
 //console.log(res);

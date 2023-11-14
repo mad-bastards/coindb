@@ -4,8 +4,6 @@ export function writeJson(file, data) {
     const text=JSON.stringify(data,null,2);
     fs.writeFileSync(file,text);
 }
-
-
 export function readJson(file) {
     const buf = fs.readFileSync(file);
     const str = buf.toString();
