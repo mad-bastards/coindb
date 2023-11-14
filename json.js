@@ -9,7 +9,5 @@ export function readJson(file) {
     const str = buf.toString();
     return JSON.parse(str);
 }
-export default {
-    readJson: readJson,
-    writeJson: writeJson
-}
+JSON.read= readJson,
+JSON.write= writeJson

@@ -1,8 +1,8 @@
 test:
-	vi-node index.mjs
+	node index.js
 
 all: prep
-	node index.mjs
+	node index.js
 
 prep:
 	npm install

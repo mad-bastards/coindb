@@ -5,11 +5,11 @@
 
 import pgprom from 'pg-promise';
 import monitor from 'pg-monitor';
-const pginit={};
-const pgp=pgprom(pginit);
+export const pginit={};
+export const pgp=pgprom(pginit);
 monitor.attach(pginit);
 const cred = {
     host:     "/run/postgresql/",
     database: "coindb"
 };
-const db = pgp(cred);
+export const db= pgp(cred);

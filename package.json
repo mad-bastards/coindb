@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "pg-monitor": "^2.0.0",
-    "pg-promise": "^11.5.4"
-  },
   "type": "module",
   "name": "coindb",
   "version": "1.0.0",
@@ -15,5 +11,8 @@
     "test": "mocha"
   },
   "author": "nobody (spam-me@copblock.app)",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "lib/*"
+  ]
 }
