@@ -14,3 +14,4 @@ function delay(seconds,chunk,check) {
   console.log(promise);
 }
 
+
