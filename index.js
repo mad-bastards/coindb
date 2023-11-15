@@ -7,13 +7,13 @@ const cols = {};
 for(var i=0;i<objs.length;i++){
   const obj=objs[i];
   const keys=Object.keys(obj);
-  for(var j=0;j<keys.length;j++){
+  for(let j=0; j<keys.length; j++){
     const key=keys[j];
     const val=obj[key];
     if(val==null)
       continue;
     objs[0][key]=val;
-  };
+  }
 }
 console.log(objs[0])
 const is = pgp.helpers.insert(objs[0],null,'chains');
