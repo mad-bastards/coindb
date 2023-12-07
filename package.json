@@ -4,15 +4,12 @@
   "version": "1.0.0",
   "description": "A database of cryptocurrency info",
   "main": "index.js",
-  "devDependencies": {
-    "mocha": "^10.2.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
   "author": "nobody (spam-me@copblock.app)",
   "license": "ISC",
   "workspaces": [
     "lib/*"
-  ]
+  ],
+  "dependencies": {
+    "glob": "^10.3.10"
+  }
 }
