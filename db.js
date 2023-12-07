@@ -4,10 +4,10 @@
 // the connection
 
 import pgprom from 'pg-promise';
-import monitor from 'pg-monitor';
+//import monitor from 'pg-monitor';
 export const pginit={};
 export const pgp=pgprom(pginit);
-monitor.attach(pginit);
+//monitor.attach(pginit);
 const cred = {
     host:     "/run/postgresql/",
     database: "coindb"
