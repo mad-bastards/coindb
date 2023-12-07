@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7d95745-10ff-4e69-88b8-0909bf8b59aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get-repo.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/get-repo.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/connection-parameters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/connection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/crypto/sasl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/crypto/utils-legacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/crypto/utils-webcrypto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/crypto/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/defaults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/native/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/native/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/native/query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/result.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/type-overrides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pg/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pgpass/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pgpass/lib/helper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pgpass/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pgpass/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a7d95745-10ff-4e69-88b8-0909bf8b59aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,23 +55,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701957234280</updated>
-      <workItem from="1701957235333" duration="2395000" />
+      <workItem from="1701957235333" duration="3003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/get-repo.cjs</url>
-          <line>63</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
