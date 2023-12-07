@@ -3,7 +3,7 @@
   "name": "coindb-load",
   "version": "1.0.0",
   "description": "Loader for database of cryptocurrency info",
-  "main": "index.js",
+  "main": "coindb-load.js",
   "author": "nobody (spam-me@copblock.app)",
   "license": "ISC",
   "dependencies": {
